@@ -77,14 +77,14 @@ CREATE DATABASE jmfinance;
 ```
 
 **Configurar as credenciais do banco**
-No arquivo src/main/resources/application.properties, adicione:
+No arquivo src/main/resources/application.properties, adicione:  
 
-spring.datasource.url=jdbc:mysql://localhost:3306/jmfinance
-spring.datasource.username=root
-spring.datasource.password=suasenha
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
-spring.jpa.hibernate.ddl-auto=update
+-spring.datasource.url=jdbc:mysql://localhost:3306/jmfinance  
+-spring.datasource.username=root  
+-spring.datasource.password=suasenha  
+-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver  
+-spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect  
+-spring.jpa.hibernate.ddl-auto=update
 
 🔹 Troque suasenha pela senha do seu MySQL.
 
@@ -93,16 +93,16 @@ spring.jpa.hibernate.ddl-auto=update
 
 ## 📌 Passo a Passo para Rodar o Projeto
 
-**Clonar o repositório**
-``` git clone https://github.com/seu-usuario/jmfinance-api.git```
-``` cd jmfinance-api```
-**Instalar as dependências**
-```mvn clean install```
-**Rodar o projeto**
-```mvn spring-boot:run```
-**Acessar a API via Swagger**
-http://localhost:8080/swagger-ui/index.html
+**Clonar o repositório**  
+``` git clone https://github.com/seu-usuario/jmfinance-api.git```  
+``` cd jmfinance-api```  
+**Instalar as dependências**  
+```mvn clean install```  
+**Rodar o projeto**    
+```mvn spring-boot:run```  
+**Acessar a API via Swagger**  
+http://localhost:8080/swagger-ui/index.html   
 
- Autor
-Desenvolvido  José Matheus✌  [Veja meu Linkedin](https://www.linkedin.com/in/josé-matheus-de-lima-27706a1b6/)
+## 📌 Autor
+Desenvolvido José Matheus✌  [Veja meu Linkedin](https://www.linkedin.com/in/josé-matheus-de-lima-27706a1b6/)
 
